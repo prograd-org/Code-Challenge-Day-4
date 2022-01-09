@@ -9,14 +9,16 @@
 
 // Write the function to retrun the exact length of the rope.
 function find_length(Length,Width){
+    let tot = Length*2+Width*2;
 
-    return null;
+    return tot;
 }
 
 // Write the function to retrun the exact quantity of carper that is required.
 function find_carper(Length,Width){
+    let tot = Length*Width;
 
-    return null;
+    return tot;
 }
 
 //Use SpecRunner to check the Test Cases.
